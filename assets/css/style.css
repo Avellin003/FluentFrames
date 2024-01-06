@@ -99,7 +99,7 @@
 
 /* Here Section */
     .hero{
-        background-image: url(/assets/img/hero.png);
+        background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/images/hero.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 90vh; 
@@ -517,7 +517,7 @@
 
 /* Footer Section */
     .footer{
-        background-image: url(/assets/img/footer.png);
+        background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/images/footer.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
