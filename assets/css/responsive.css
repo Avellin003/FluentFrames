@@ -155,7 +155,7 @@
     }
     @media (max-width:650px) {
         .hero{
-            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/images/hero.png);
+            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/img/hero.png);
             background-position: center;
             height: 95vh;
         }
@@ -178,7 +178,7 @@
     }
     @media (min-width:651px)and (max-width:900px) {
         .hero{
-            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/images/hero.png);
+            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/img/hero.png);
         }
         .hero-heading{
             padding-top: 5rem;
@@ -190,7 +190,7 @@
     }
     @media (min-width:901px)and (max-width:1150px) {
         .hero{
-            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/images/hero.png);
+            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/img/hero.png);
             height: fit-content;
         }
         .hero-heading{
