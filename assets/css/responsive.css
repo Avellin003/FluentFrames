@@ -77,6 +77,11 @@
             font-size: 1.1rem;
             font-weight: 500;
         }
+        
+        .navbar a.active::after{
+            bottom: -3px;
+            height: 2px;
+        }
         .logo{
             position: absolute;
             top: -30px;
@@ -155,7 +160,7 @@
     }
     @media (max-width:650px) {
         .hero{
-            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/img/hero.png);
+            background-image: url(/assets/img/study.jpg);
             background-position: center;
             height: 95vh;
         }
@@ -178,7 +183,7 @@
     }
     @media (min-width:651px)and (max-width:900px) {
         .hero{
-            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/img/hero.png);
+            background-image: url(/assets/img/study.jpg);
         }
         .hero-heading{
             padding-top: 5rem;
@@ -190,7 +195,7 @@
     }
     @media (min-width:901px)and (max-width:1150px) {
         .hero{
-            background-image: url(https://raw.githubusercontent.com/httpsadnankhan/education-landing-page/main/assets/img/hero.png);
+            background-image: url(/assets/img/study.jpg);
             height: fit-content;
         }
         .hero-heading{
@@ -300,6 +305,34 @@
         .about-container{
             margin: 2%;
         }
+        
+        .about-section{
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        
+        .about-image{
+            min-height: 300px;
+            order: -1;
+        }
+        
+        .about-heading{
+            padding: 1rem 0;
+        }
+        
+        .about-title{
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            margin-right: 0;
+        }
+        
+        .about-sub-title{
+            margin-right: 0;
+        }
+        
+        .about-nav{
+            bottom: 1rem;
+        }
     }
     @media (max-width:699px) {
         .about-heading{
@@ -308,7 +341,6 @@
         }
         .about-container{
             background-image: none;
-            background-color: #064FB2;
             height: fit-content;
         }
     }
@@ -504,6 +536,45 @@
         }
     }
 /* End Feedback Section */
+
+/* FAQ Section */
+    @media (max-width: 768px) {
+        .faq-container {
+            margin: 0 2%;
+        }
+        
+        .faq-items {
+            max-width: 100%;
+        }
+        
+        .faq-question {
+            padding: 1rem 1.5rem;
+        }
+        
+        .faq-title {
+            font-size: 1rem;
+        }
+        
+        .faq-answer p {
+            padding: 0 1.5rem 1rem;
+            font-size: 0.9rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .faq-question {
+            padding: 0.8rem 1rem;
+        }
+        
+        .faq-title {
+            font-size: 0.9rem;
+        }
+        
+        .faq-answer p {
+            padding: 0 1rem 0.8rem;
+            font-size: 0.85rem;
+        }
+    }
 
 /* Newsletter Section */
     @media (max-width:768px) {

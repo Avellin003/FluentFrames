@@ -18,39 +18,44 @@
                     <span class="line line3"></span>
                 </div>
                 <ul class="menu-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#" class="navbar-btn">Sign In</a></li>
-                    <li><a href="#" class="navbar-btn-two" style="color: #fff;">Register</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#specials">Specials</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#" class="navbar-btn-two contact-btn" style="color: #fff;">Contact Us</a></li>
                 </ul>
-                <h1 class="logo">Logo Here</h1>
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h1 class="logo">Fluent<span class="logo-span">Frames</span></h1>
+                </div>
             </div>
         </nav>
     <!--End Navbar Section-->
 
      <!--Hero Section-->
-        <main class="hero">
+        <main class="hero" id="home">
             <div class="hero-container">
                 <div class="hero-heading">
                     <div class="hero-welcome">
                             <div class="welcome-line"></div>
                             <div class="welcome-text">
-                                Welcome to ABC
+                                Welcome to Fluent Frames
                             </div>
                     </div>
                     <div class="hero-text">
                         <h1 class="hero-title">
-                            Unlock Your <span class="colorfull">Potential,</span> Master Your Future
-                        </h1>
+                            Learn <span class="colorfull">Kinyarwanda</span><br> with ease
                         <p class="hero-sub-title">
-                            Ready To Go Skillup? Let's Make Your Learning Experience Extraordinary.
+                            Learn Kinyarwanda the natural way through stories, practices and real conversations
                         </p>
                         <div class="hero-cta">
-                            <a href="#" class="hero-btn">Get Started Now</a>
-                            <div class="hero-btn-two">
+                            <a href="#" class="hero-btn2">Get Started</a>
+                            <div class="hero-btn-two2">
                                 <i class="fa-regular fa-circle-play hero-icon"></i>
                                 <a href="#" class="hero-btn-demo">View Demo</a>
                             </div>
@@ -61,76 +66,59 @@
         </main>
     <!--End Hero Section-->
 
-    <!--Client Section-->
-        <section class="client">
-            <div class="client-container">
-                <div class="client-items">
-                    <div class="client-items-list">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png" class="client-img" alt="">
-                    </div>
-                    <div class="client-items-list">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2560px-Slack_Technologies_Logo.svg.png" class="client-img" alt="">
-                    </div>
-                    <div class="client-items-list">
-                        <img src="data:image/png;base64,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" class="client-img" alt="">
-                    </div>
-                    <div class="client-items-list">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" class="client-img" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!--End Client Section-->
-
     <!--Feature Section-->
-        <section class="feature">
+        <section class="feature" id="specials">
             <div class="feature-container">
                 <div class="section-heading">
-                    <h1 class="section-title">
-                        Our Special Features
+                    <h1 class="section-title specials-title">
+                        Why Learn with Us
                     </h1>
-                    <p class="section-sub-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Maiores modi cupiditate cum eum eos dicta deleniti quia vero.
+                    <p class="section-sub-title specials-sub-title">
+                        Our Special Features
                     </p>
                 </div>
                 <div class="feature-items">
                     <div class="feature-items-list">
                         <i class="fa-solid fa-user-tie feature-icon"></i>
                         <span class="feature-item-title">
-                            Admin Panel
+                            Structured Lessons with Clear Progress
                         </span>
                         <p class="feature-item-sub-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                             Ipsa esse nihil amet doloribus, nesciunt, ex,
-                             officia ea odit molestias est harum voluptate.
-                              Totam magnam at ipsum dolores optio deserunt non?
+                            Our curriculum is carefully designed to guide learners’ step by step.
+                            Each lesson builds on the last, ensuring that grammar, vocabulary, and expressions are introduced with clarity and purpose.
+                            You will always know exactly what you are learning and how to apply it.
                         </p>
                     </div>
 
                     <div class="feature-items-list">
                         <i class="fa-solid fa-person-chalkboard feature-icon"></i>
                         <span class="feature-item-title">
-                            Teacher's Panel
+                            Real-Life Stories and Resources
                         </span>
                         <p class="feature-item-sub-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                             Ipsa esse nihil amet doloribus, nesciunt, ex,
-                             officia ea odit molestias est harum voluptate.
-                              Totam magnam at ipsum dolores optio deserunt non?
+                            We go beyond textbooks by using stories, podcasts, and transcripts that reflect everyday situations.
+                            This helps you understand how the language is naturally spoken, bridging the gap between structured study and real-world communication.
                         </p>
                     </div>
 
                     <div class="feature-items-list">
                         <i class="fa-solid fa-graduation-cap feature-icon"></i>
                         <span class="feature-item-title">
-                            Parent/ Student Panel
+                            1-on-1 Practice with Native Speakers
                         </span>
                         <p class="feature-item-sub-title">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                             Ipsa esse nihil amet doloribus, nesciunt, ex,
-                             officia ea odit molestias est harum voluptate.
-                              Totam magnam at ipsum dolores optio deserunt non?
+                            Speaking with native speakers is the most effective way to build confidence and fluency.
+                            Our personalized sessions provide a supportive space to practice conversation, receive feedback, and refine your communication skills.
+                        </p>
+                    </div>
+                    <div class="feature-items-list">
+                        <i class="fa-solid fa-robot feature-icon"></i>
+                        <span class="feature-item-title">
+                            AI-Powered Learning Assistant
+                        </span>
+                        <p class="feature-item-sub-title">
+                            Your personal learning companion, available anytime.
+                            It helps you find words and phrases, practice exercises, get feedback, and guide your next steps — making learning easier, interactive, and effective.
                         </p>
                     </div>
 
@@ -140,76 +128,67 @@
     <!--End Feature Section-->
 
     <!--About Section-->
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-container">
-                <div class="about-heading">
-                    <div class="about-welcome">
-                        <div class="about-text">
-                            About Us
-                        </div>
-                        <div class="about-line"></div>
+                <!-- About Us Section -->
+                <div class="about-section active" id="about-us">
+                    <div class="about-image">
+                        <img src="assets/img/black-dude-learning.jpg" alt="Students learning online">
                     </div>
-                    <h1 class="about-title">
-                        Our Mission Is To Empower Individuals To Acquire New Skills.
-                    </h1>
-                    <p class="about-sub-title">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Doloribus consectetur rerum delectus explicabo. 
-                        Culpa unde nihil maiores, veniam impedit voluptate.
-                    </p>
-                    <div class="about-feature">
-                        <div class="about-feature-item">
-                            <i class="fa-solid fa-angle-right about-icon"></i>
-                            <span class="about-feature-item-title">
-                                Quality Teachers
-                            </span>
+                    <div class="about-heading">
+                        <div class="about-welcome">
+                            <div class="about-text">
+                                About Us
+                            </div>
+                            <div class="about-line"></div>
                         </div>
-
-                        <div class="about-feature-item">
-                            <i class="fa-solid fa-angle-right about-icon"></i>
-                            <span class="about-feature-item-title">
-                                Get Certified
-                            </span>
-                        </div>
-
-                        <div class="about-feature-item">
-                            <i class="fa-solid fa-angle-right about-icon"></i>
-                            <span class="about-feature-item-title">
-                                Online Class
-                            </span>
-                        </div>
-
-                        <div class="about-feature-item">
-                            <i class="fa-solid fa-angle-right about-icon"></i>
-                            <span class="about-feature-item-title">
-                                Skills Developed
-                            </span>
-                        </div>
-
-                        <div class="about-feature-item">
-                            <i class="fa-solid fa-angle-right about-icon"></i>
-                            <span class="about-feature-item-title">
-                                Library Store
-                            </span>
-                        </div>
-
-                        <div class="about-feature-item">
-                            <i class="fa-solid fa-angle-right about-icon"></i>
-                            <span class="about-feature-item-title">
-                                Lifetime Access
-                            </span>
-                        </div>
+                        <h1 class="about-title">
+                            What is Fluent Frames?
+                        </h1>
+                        <p class="about-sub-title">
+                            Fluent Frames is a trusted language learning platform used by students around the world to master Kinyarwanda effectively. We provide a complete learning experience that combines structured lessons, real-life stories, transcripts, and personalized guidance. Students can choose to learn online or in person, practice at their own pace, and engage with native speakers to build real conversational skills.
+                            We have supported many learners, helping them study confidently, reinforce their skills, and achieve fluency through an approach that is both practical and enjoyable.
+                        </p>
                     </div>
-                    <div class="about-button">
-                     <a href="#" class="about-btn">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
-                   </div>
                 </div>
+
+                <!-- Meet the Founder Section -->
+                <div class="about-section" id="meet-founder">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Founder">
+                    </div>
+                    <div class="about-heading">
+                        <div class="about-welcome">
+                            <div class="about-text">
+                                Meet the Founder
+                            </div>
+                            <div class="about-line"></div>
+                        </div>
+                        <h1 class="about-title">
+                            Driven by Passion, Committed to Excellence in Education.
+                        </h1>
+                        <p class="about-sub-title">
+                            Hi, I’m Herve Shema. Founder of Fluent Frames. 
+                            I’ve always loved learning languages, and through my own experiences, I realized how rewarding it is to study in a way that is structured, engaging, and keeps your motivation up.
+                            Inspired by this, I created Fluent Frames to make Kinyarwanda more accessible to learners everywhere.
+                            My goal is to help students gain confidence, enjoy the process, and develop fluency step by step, with tools and guidance that make learning both practical and enjoyable.
+                        </p>
+                        <div class="about-button">
+                         <a href="#" class="about-btn"> <i class="fa-brands fa-linkedin"></i></a>
+                       </div>
+                    </div>
+                </div>
+                <!-- Navigation Dots -->
+            <div class="about-nav">
+                <div class="about-dot active" data-section="about-us"></div>
+                <div class="about-dot" data-section="meet-founder"></div>
+            </div>
             </div>
         </section>
     <!--End About Section-->
 
     <!--Courses Section-->
-        <section class="courses">
+        <section class="courses" id="courses">
             <div class="courses-container">
                 <div class="section-heading">
                     <h1 class="section-title">
@@ -222,16 +201,20 @@
                 </div>
                 <div class="courses-item">
                     <div class="courses-item-list">
-                        <img src="https://digiskillzz.com/wp-content/uploads/2023/02/digital-marketing-course-in-india-1.jpg"
-                         class="course-img" alt="">
+                        <div class="course-video">
+                            <iframe src="https://youtu.be/cLha1-NuPzA?si=4k9gOMgxEmJxYcUB" 
+                                    title="Digital Marketing Course" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                          <div class="course-about">
                             <h1 class="course-item-title">
                                 Digital Marketing Mastery
                             </h1>
                             <p class="course-item-sub-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing
-                                 elit. Corporis facere ipsam excepturi, 
-                                minima sed harum debitis cum enim aperiam eos eligendi.
+                                Master the fundamentals of digital marketing including SEO, social media, email marketing, and analytics. Learn to create effective campaigns that drive results.
                             </p>
                          </div>
                          <div class="course-info">
@@ -257,16 +240,20 @@
                     </div>
 
                     <div class="courses-item-list">
-                        <img src="https://www.livewireindia.com/blog/wp-content/uploads/2019/04/Python-Web-App-Development-640x427.jpg"
-                         class="course-img" alt="">
+                        <div class="course-video">
+                            <iframe src="https://www.youtube.com/embed/kqtD5dpn9C8" 
+                                    title="Python for Beginners" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                          <div class="course-about">
                             <h1 class="course-item-title">
-                               Python For Beginner
+                               Python For Beginners
                             </h1>
                             <p class="course-item-sub-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing
-                                 elit. Corporis facere ipsam excepturi, 
-                                minima sed harum debitis cum enim aperiam eos eligendi.
+                                Start your programming journey with Python! Learn variables, loops, functions, and object-oriented programming. Build real-world projects from scratch.
                             </p>
                          </div>
                          <div class="course-info">
@@ -292,16 +279,20 @@
                     </div>
 
                     <div class="courses-item-list">
-                        <img src="https://www.cdmi.in/courses@2x/web-developments.webp"
-                         class="course-img" alt="">
+                        <div class="course-video">
+                            <iframe src="https://www.youtube.com/embed/916GWv2Qs08" 
+                                    title="Web Development Course" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                          <div class="course-about">
                             <h1 class="course-item-title">
                                 Web Development
                             </h1>
                             <p class="course-item-sub-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing
-                                 elit. Corporis facere ipsam excepturi, 
-                                minima sed harum debitis cum enim aperiam eos eligendi.
+                                Learn HTML, CSS, and JavaScript to create stunning websites. Master responsive design, modern frameworks, and build a portfolio of professional projects.
                             </p>
                          </div>
                          <div class="course-info">
@@ -327,16 +318,20 @@
                     </div>
 
                     <div class="courses-item-list">
-                        <img src="https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg"
-                         class="course-img" alt="">
+                        <div class="course-video">
+                            <iframe src="https://www.youtube.com/embed/0mFzJdQjLdI" 
+                                    title="Mobile App Development" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                          <div class="course-about">
                             <h1 class="course-item-title">
                                 Mobile App Development
                             </h1>
                             <p class="course-item-sub-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing
-                                 elit. Corporis facere ipsam excepturi, 
-                                minima sed harum debitis cum enim aperiam eos eligendi.
+                                Build native and cross-platform mobile applications using React Native, Flutter, and native development. Create apps for iOS and Android platforms.
                             </p>
                          </div>
                          <div class="course-info">
@@ -362,16 +357,20 @@
                     </div>
 
                     <div class="courses-item-list">
-                        <img src="https://cdnwp.mobidea.com/academy/wp-content/uploads/2018/04/best-seo-training-courses-760x428-1.png"
-                         class="course-img" alt="">
+                        <div class="course-video">
+                            <iframe src="https://www.youtube.com/embed/2JYT5f2isg4" 
+                                    title="SEO Mastery Course" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                          <div class="course-about">
                             <h1 class="course-item-title">
                                 SEO Mastery
                             </h1>
                             <p class="course-item-sub-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing
-                                 elit. Corporis facere ipsam excepturi, 
-                                minima sed harum debitis cum enim aperiam eos eligendi.
+                                Master Search Engine Optimization techniques to improve website rankings. Learn keyword research, on-page SEO, technical SEO, and link building strategies.
                             </p>
                          </div>
                          <div class="course-info">
@@ -397,16 +396,20 @@
                     </div>
 
                     <div class="courses-item-list">
-                        <img src="https://www.redpillrebellion.com/wp-content/uploads/2022/03/What-is-a-copywriter-640x427.png"
-                         class="course-img" alt="">
+                        <div class="course-video">
+                            <iframe src="https://www.youtube.com/embed/2npk77VZ0Ug" 
+                                    title="Copywriting Mastery Course" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                          <div class="course-about">
                             <h1 class="course-item-title">
                                 Copywriting Mastery
                             </h1>
                             <p class="course-item-sub-title">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing
-                                 elit. Corporis facere ipsam excepturi, 
-                                minima sed harum debitis cum enim aperiam eos eligendi.
+                                Learn persuasive writing techniques to create compelling content that converts. Master sales copy, email marketing, and content strategy for business growth.
                             </p>
                          </div>
                          <div class="course-info">
@@ -435,9 +438,101 @@
             </div>
         </section>
     <!--End Courses Section-->
+    <!--Membership Section-->
+    <section class="membership" id="membership">
+        <div class="membership-container">
+            <div class="section-heading">
+                <h1 class="section-title">Choose Your Learning Plan</h1>
+                <p class="section-sub-title">Select the perfect membership plan that fits your learning goals and budget</p>
+            </div>
+            
+            <div class="membership-cards">
+                <!-- Basic Plan -->
+                <div class="membership-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Learner Membership</h3>
+                        <div class="price-container">
+                            <span class="currency">$</span>
+                            <span class="price">8</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-features">
+                        <ul class="features-list">
+                            <li><i class="fa-solid fa-check"></i> Access to free video lessons</li>
+                            <li><i class="fa-solid fa-check"></i> Transcripts for all free videos</li>
+                            <li><i class="fa-solid fa-check"></i> Vocabulary lists for free videos</li>
+                            <li><i class="fa-solid fa-check"></i> Ability to ask questions and get support in our members-only community</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <a href="#" class="membership-btn">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="membership-card featured">
+                    <div class="popular-badge">1 on 1 Tutoring Membership</div>
+                    <div class="card-header">
+                        <h3 class="plan-name">Pro</h3>
+                        <div class="price-container">
+                            <span class="currency">$</span>
+                            <span class="price">35</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <!-- <p class="plan-description">Ideal for serious learners who want comprehensive access</p> -->
+                    </div>
+                    
+                    <div class="card-features">
+                        <ul class="features-list">
+                            <li><i class="fa-solid fa-check"></i> One personalized 1-on-1 session per month with a native Kinyarwanda tutor (online or in-person)</li>
+                            <li><i class="fa-solid fa-check"></i> Structured lessons tailored to your level and goals</li>
+                            <li><i class="fa-solid fa-check"></i> Access to VIP community area for discussion and support</li>
+                            <li><i class="fa-solid fa-check"></i> Option to reschedule additional paid lessons as needed</li>
+                            <li><i class="fa-solid fa-check"></i> Includes all perks of the All-Access Membership</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <a href="#" class="membership-btn featured">Get Started</a>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="membership-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Premium</h3>
+                        <div class="price-container">
+                            <span class="currency">$</span>
+                            <span class="price">12</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <!-- <p class="plan-description">For professionals seeking personalized guidance</p> -->
+                    </div>
+                    
+                    <div class="card-features">
+                        <ul class="features-list">
+                            <li><i class="fa-solid fa-check"></i> Access to all new videos, including unlisted and bonus content</li>
+                            <li><i class="fa-solid fa-check"></i> Structured lessons for all videos</li>
+                            <li><i class="fa-solid fa-check"></i> Transcripts and vocabulary lists for all videos</li>
+                            <li><i class="fa-solid fa-check"></i> Interactive exercises for all videos</li>
+                            <li><i class="fa-solid fa-check"></i> Participation in our members-only community</li>
+                            <li><i class="fa-solid fa-check"></i> Includes all perks of the Learner Membership</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card-footer">
+                        <a href="#" class="membership-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Feedback Section-->
-        <section class="feedback">
+        <section class="feedback" id="testimonials">
             <div class="feedback-container">
                 <div class="feedback-item">
                     <div class="feedback-item-list">
@@ -493,8 +588,114 @@
         </section>
     <!--End Feedback Section-->
 
+    <!--FAQ Section-->
+        <section class="faq" id="faq">
+            <div class="faq-container">
+                <div class="section-heading">
+                    <h1 class="section-title">
+                        Frequently Asked Questions
+                    </h1>
+                    <p class="section-sub-title">
+                        Find answers to the most common questions about our courses and learning platform.
+                    </p>
+                </div>
+                <div class="faq-items">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">Who are Fluent Frames courses for?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our courses are designed for anyone wanting to learn Kinyarwanda — from complete beginners to advanced learners seeking fluency.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">Can I learn at my own pace?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! All lessons are structured so you can progress at your own speed. You can revisit videos, exercises, and transcripts as often as needed.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">Do you offer 1-on-1 tutoring?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! You can schedule personalized lessons with native Kinyarwanda tutors, available online or in-person, depending on your preference.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">What does the AI-powered assistant do?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our AI assistant helps you practice anytime by looking up words, providing exercises, giving feedback, and suggesting what to study next — all to reinforce your learning.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">Are your transcripts and exercises included?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Depending on your membership tier, you’ll get transcripts, vocabulary lists, and interactive exercises for either free videos or all content.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">How do I get started?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Simply choose a membership plan that suits your needs, sign up, and start learning right away!</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">Is my payment secure, and do you offer a money-back guarantee?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! All payments are processed securely through trusted providers. We also offer a 7-day money-back guarantee on all membership plans, so you can try Fluent Frames risk-free.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">Is Fluent Frames a legitimate platform?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! Fluent Frames is a trusted language learning platform used by students worldwide. Our structured lessons, native tutors, and AI-powered tools are designed to help learners progress effectively and safely.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-title">Can I cancel or change my membership anytime?</h3>
+                            <i class="fa-solid fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! You have full control over your membership. You can upgrade, downgrade, or cancel at any time without hassle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--End FAQ Section-->
+
     <!--Newsletter Section-->
-        <section class="newsletter">
+        <section class="newsletter" id="Subscribe">
             <div class="newsletter-container">
                  <div class="newsletter-item">
                     <h1 class="newsletter-title">
@@ -581,6 +782,40 @@
             </div>
         </footer>
     <!--End Footer Section-->
+    <!-- Contact Modal -->
+    <div class="contact-modal" id="contactModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Contact Us</h2>
+                <span class="close-modal" id="closeModal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group message-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you..."></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <button type="button" class="cancel-btn" id="cancelBtn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/js/main.js"></script>
     <script src="https://kit.fontawesome.com/9498bdc1c3.js" crossorigin="anonymous"></script>
 </body>
